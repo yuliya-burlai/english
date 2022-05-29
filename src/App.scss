@@ -82,3 +82,40 @@ button {
 .hero-image {
   height: 470px;
 }
+
+.h1 {
+  font-weight: 100;
+  font-size: 58px;
+}
+
+.lead {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.header {
+  position: relative;
+  height: 80px;
+  box-shadow: 0px 7px 8px 0px rgba(0,0,0,0.1);
+}
+
+.nav.nav-pills {
+  .nav-item {
+    a {
+      @extend .brand-color;
+      font-weight: 500;
+      font-size: 16px;
+      text-transform: uppercase;
+      padding: 0;
+      padding-top: 12px;
+      margin-left: 15px;
+      margin-right: 15px;
+      border-radius: 0;
+      border-bottom: 2px solid transparent;
+
+      &:hover, &:focus {
+        border-bottom: 2px solid #DF1429;
+      }
+    }
+  }
+}

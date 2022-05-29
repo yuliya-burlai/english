@@ -2,24 +2,24 @@ export const MainPage = () => {
   return (
     <div>
       <section className="bg-light">
-        <div className="text-center container">
-          <div className="row py-lg-3">
+        <div className="text-start container">
+          <div className="row py-lg-4">
             <div className="col-md-6 mx-auto d-flex align-items-center">
               <div className="">
-                <h1 className="fw-light">
+                <h1 className="h1">
                   Yuliya Burlai English for IT online lessons
                 </h1>
-                <p className="lead text-muted">
+                <p className="lead">
                   I’m offering friendly online English lessons for all levels :)
                 </p>
                 <p>
-                  <a href="#" className="btn my-2 cta-button">
+                  <a href="#" className="btn mt-4 cta-button">
                     Contact me for details
                   </a>
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 text-center">
               <img className="hero-image" src="/src/img/portrait.png" />
             </div>
           </div>
