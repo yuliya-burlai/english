@@ -32,10 +32,9 @@ export const MainPage = () => {
                   src="src/img/class.png"
                 />
                 <div className="card-body">
+                  <h3>Education</h3>
                   <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    While I have the classic combo of MA in English, a non-degree year of studying in the USA plus CELTA, I consider my experience with other languages just as important. At some point in my life I learned & dropped German & Chinese but continued learning & using French, Spanish & Polish.
                   </p>
                 </div>
               </div>
@@ -49,10 +48,9 @@ export const MainPage = () => {
                   src="src/img/work.png"
                 />
                 <div className="card-body">
+                  <h3>Work Experience</h3>
                   <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    10+ years of own experience as an English speaker in business & IT, also working as a corporate soft skill trainer, gave me the perspective of how English is a tool, not a goal.
                   </p>
                 </div>
               </div>
@@ -66,10 +64,9 @@ export const MainPage = () => {
                   src="src/img/vault.png"
                 />
                 <div className="card-body">
+                  <h3>Why it's important to you</h3>
                   <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    I encourage people to explore how English can be something they enjoy so much, they just want to use it all the time. Learning a new language is like meeting a new person, your new English-speaking identity. I will help you nurture that new confidence while keeping tabs on how to save your effort for this new marathon you'll be running for as long as English is part of your life.
                   </p>
                 </div>
               </div>
