@@ -50,7 +50,7 @@ export const MainPage = () => {
                 <div className="card-body">
                   <h3>Work Experience</h3>
                   <p className="card-text">
-                    10+ years of own experience as an English speaker in business & IT, also working as a corporate soft skill trainer, gave me the perspective of how English is a tool, not a goal.
+                    10+ years of own experience as an English speaker in business & IT, also working as a corporate soft skills trainer, gave me the perspective of how English is a tool, not a goal.
                   </p>
                 </div>
               </div>
