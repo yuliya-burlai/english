@@ -1,1 +1,1 @@
-# Vite + React 18 + MSW
+# Yuliya Burlai - Teacher of IT English
