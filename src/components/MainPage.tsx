@@ -1,30 +1,9 @@
+import { Hero } from './Hero';
+
 export const MainPage = () => {
   return (
     <div>
-      <section className="bg-light">
-        <div className="text-start container">
-          <div className="row py-lg-4">
-            <div className="col-md-6 mx-auto d-flex align-items-center">
-              <div className="">
-                <h1 className="h1">
-                  Yuliya Burlai English for IT online lessons
-                </h1>
-                <p className="lead">
-                  I’m offering friendly online English lessons for all levels :)
-                </p>
-                <p>
-                  <a href="#" className="btn mt-4 cta-button">
-                    Contact me for details
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 text-center">
-              <img className="hero-image" src="/src/img/portrait.png" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       <div className="album py-5">
         <div className="container">
@@ -32,10 +11,10 @@ export const MainPage = () => {
             <div className="col">
               <div className="card shadow-sm">
                 <img
-                  width="100%"
-                  height="100%"
-                  className="image-responsive"
-                  src="src/img/class.png"
+                  height="287px"
+                  width="380px"
+                  className="feature-img"
+                  src="src/img/class.svg"
                 />
                 <div className="card-body">
                   <h3>Education</h3>
@@ -53,10 +32,10 @@ export const MainPage = () => {
             <div className="col">
               <div className="card shadow-sm">
                 <img
-                  width="100%"
-                  height="100%"
+                  height="247px"
+                  width="264px"
                   className="image-responsive"
-                  src="src/img/work.png"
+                  src="src/img/work.svg"
                 />
                 <div className="card-body">
                   <h3>Work Experience</h3>
@@ -72,10 +51,10 @@ export const MainPage = () => {
             <div className="col">
               <div className="card shadow-sm">
                 <img
-                  width="100%"
-                  height="100%"
-                  className="image-responsive"
-                  src="src/img/vault.png"
+                  width="430px"
+                  height="430px"
+                  className="image-vault"
+                  src="src/img/vault.svg"
                 />
                 <div className="card-body">
                   <h3>Why it's important to you</h3>
