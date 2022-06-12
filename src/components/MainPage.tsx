@@ -7,17 +7,24 @@ export const MainPage = () => {
 
       <div className="album py-5">
         <div className="container">
+          <div className="row">
+          <div className="col">
+            <h5 className='h5 text-uppercase'>i’m doing my best for you </h5>
+            <h2 className='h2'>Why my lessons?</h2>
+            </div>
+          </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
             <div className="col">
               <div className="card">
                 <div className='img-container'>
-                <img
-                  className="feature-img d-block mx-auto"
-                  src="src/img/class.svg"
-                />
+                  <img
+                    className="feature-img d-block mx-auto"
+                    src="src/img/class.svg"
+                  />
                 </div>
                 <div className="card-body">
-                  <h3>Education</h3>
+                  <h3 className="mt-2 mb-3">Education</h3>
                   <p className="card-text">
                     While I have the classic combo of MA in English, a
                     non-degree year of studying in the USA plus CELTA, I
@@ -32,13 +39,13 @@ export const MainPage = () => {
             <div className="col">
               <div className="card">
                 <div className='img-container'>
-                <img
-                  className="teacher-img d-block mx-auto"
-                  src="src/img/work.svg"
-                />
+                  <img
+                    className="teacher-img d-block mx-auto"
+                    src="src/img/work.svg"
+                  />
                 </div>
                 <div className="card-body">
-                  <h3>Work Experience</h3>
+                  <h3 className="mt-2 mb-3">Work Experience</h3>
                   <p className="card-text">
                     10+ years of own experience as an English speaker in
                     business & IT, also working as a corporate soft skills
@@ -51,13 +58,13 @@ export const MainPage = () => {
             <div className="col">
               <div className="card">
                 <div className='img-container'>
-                <img
-                  className="vault-img"
-                  src="src/img/vault.svg"
-                />
+                  <img
+                    className="vault-img"
+                    src="src/img/vault.svg"
+                  />
                 </div>
                 <div className="card-body">
-                  <h3>Why it's important to you</h3>
+                  <h3 className="mt-2 mb-3">Why it's important to you</h3>
                   <p className="card-text">
                     I encourage people to explore how English can be something
                     they enjoy so much, they just want to use it all the time.
