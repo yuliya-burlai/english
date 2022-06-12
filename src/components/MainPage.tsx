@@ -9,13 +9,13 @@ export const MainPage = () => {
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card">
+                <div className='img-container'>
                 <img
-                  height="287px"
-                  width="380px"
-                  className="feature-img"
+                  className="feature-img d-block mx-auto"
                   src="src/img/class.svg"
                 />
+                </div>
                 <div className="card-body">
                   <h3>Education</h3>
                   <p className="card-text">
@@ -30,13 +30,13 @@ export const MainPage = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card">
+                <div className='img-container'>
                 <img
-                  height="247px"
-                  width="264px"
-                  className="image-responsive"
+                  className="teacher-img d-block mx-auto"
                   src="src/img/work.svg"
                 />
+                </div>
                 <div className="card-body">
                   <h3>Work Experience</h3>
                   <p className="card-text">
@@ -49,13 +49,13 @@ export const MainPage = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card shadow-sm">
+              <div className="card">
+                <div className='img-container'>
                 <img
-                  width="430px"
-                  height="430px"
-                  className="image-vault"
+                  className="vault-img"
                   src="src/img/vault.svg"
                 />
+                </div>
                 <div className="card-body">
                   <h3>Why it's important to you</h3>
                   <p className="card-text">

@@ -121,4 +121,28 @@ button {
 }
 
 .feature-img {
+  height: 245px;
+  width: 345px;
+  margin-top: 40px;
+}
+
+.teacher-img {
+  height: 215px;
+  width: 230px;
+  margin-top: 45px;
+}
+
+.vault-img {
+  width: 430px;
+  height: 430px;
+  position: absolute;
+  left: 0;
+  top: -60px;
+}
+
+.img-container {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 270px;
 }
