@@ -1,0 +1,19 @@
+.carousel {
+    min-height: 260px;
+
+    .carousel-inner {
+        margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 80px;
+  padding-right: 80px;
+    }
+}
+
+  @media (max-width: 768px) {
+    .carousel {
+        min-height: 370px;
+      }
+  }
